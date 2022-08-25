@@ -1,0 +1,15 @@
+.about_text_wrap h1 {
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90%;
+    /* or 54px */
+
+    letter-spacing: 0.005em;
+    margin-bottom: 30px;
+}
+
+.about_text_wrap p {
+
+    margin-bottom: 30px;
+}

@@ -1,0 +1,59 @@
+.home_banner {
+    background-position: center;
+    background-size: cover;
+    height: 799px;
+    position: relative;
+}
+
+.home_banner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+
+}
+
+.banner_text_wrap {
+    z-index: 3;
+    position: relative;
+}
+
+.banner_text_wrap h1 {
+
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 145px;
+
+}
+
+.secondText {
+    margin: 40px 0;
+}
+
+.logo_calender {
+    width: 21px;
+    height: 20px
+}
+
+.banner_date {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.banner_para {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+}
