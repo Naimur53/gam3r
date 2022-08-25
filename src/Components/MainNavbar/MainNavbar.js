@@ -10,7 +10,7 @@ const MainNavbar = () => {
             <Navbar collapseOnSelect expand="lg" bg="dark_blue_bg" fixed="top" variant="dark" className='border-bottom border-1 red_border_color dark_blue_bg'>
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img src="/images/Framelogo1.png" className='img-fluid' alt="" />
+                        <img src="/images/Framelogo1.png" className='img-fluid navlog' alt="Nav bar logo" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

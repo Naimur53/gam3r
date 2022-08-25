@@ -1,0 +1,11 @@
+.news_form .filed {
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 293px;
+    height: 60px;
+    text-align: center;
+}
+
+.news_form input::placeholder {
+    text-align: center;
+}

@@ -7,10 +7,10 @@ const About = () => {
         <div className='container pb-5' style={{ marginTop: '85px' }}>
             <div className="row">
                 <div className="col-md-6 col-sm-12">
-                    <img src="/images/about.png" className='img-fluid' alt="" />
+                    <img src="/images/about.png" className='img-fluid' alt="about image" />
                 </div>
                 <div className="col-md-6 col-sm-12">
-                    <div className='about_text_wrap'>
+                    <div className='mt-5 mt-md-0 about_text_wrap'>
                         <h1 className='text-uppercase'>About GAM3R
                             <br />
                             SUMMIT 2022

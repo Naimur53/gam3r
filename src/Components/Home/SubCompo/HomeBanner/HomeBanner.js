@@ -10,7 +10,7 @@ const HomeBanner = () => {
                     <br />
                     PLAY BETTER. </h1>
                 <div className='d-flex  justify-content-center align-items-center text-white secondText'>
-                    <img src="/images/calender.png" className='  logo_calender me-3' alt="" />
+                    <img src="/images/calender.png" className='  logo_calender me-3' alt="logo of calender" />
                     <h2 className='banner_date '>NOVEMBER 2ND 2022, UC BERKELEY</h2>
                 </div>
                 <p className='banner_para font_titillium'>
