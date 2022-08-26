@@ -16,10 +16,12 @@ const About = () => {
                             SUMMIT 2022
                         </h1>
                         <p className='font_titillium'>
-                            Talks covering industry-leading research and hands-on developer workshops will alternate with sessions that attempt to break down silos and foster connection and collaboration for attendees.
+                            Talks covering industry-leading research and hands-on workshops will alternate with sessions that attempt to break down silos and foster connection and collaboration for attendees.
+
+
                         </p>
-                        <p>
-                            This event is invite-only. Please submit your interest now to secure your spot and join the best and brightest  developers from across Web3 gaming - together in one location sharing experiences, discussing innovations and learning as a community.</p>
+                        <p className='font_titillium'>
+                            We invite thoughtful contributors and thought leaders to foster meaningful discussions at the event. Please submit your interest to secure your spot and join the best and brightest developers from across Web3 gaming - together in one location, sharing experiences, discussing innovations, and learning as a community.</p>
                     </div>
                     <CommonButton text={'Apply to Join'}></CommonButton>
                 </div>
