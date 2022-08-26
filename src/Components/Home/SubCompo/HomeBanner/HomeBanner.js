@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CommonButton from '../../../Share/CommonButton/CommonButton';
 import './HomeBanner.css'
 const HomeBanner = () => {
@@ -14,21 +15,28 @@ const HomeBanner = () => {
                     <h2 className='banner_date '>NOVEMBER 2ND 2022, UC BERKELEY</h2>
                 </div>
                 <p className='banner_para font_titillium'>
-                    Get ready for Game7’s inaugural community-led summit!
+                    A community-led forum tackling the most pressing issues in Web3
                     <br />
-                    Tackling the most pressing issues in Web3 gaming, this invite-only in-person event <br />
-                    aims to shed light on groundbreaking ideas and best practices <br />
+                    gaming
+                    We aim to shed light on groundbreaking ideas and best practices
+                    <br />
                     to propel the future of sustainable game economies.
+
 
                 </p>
                 <div style={{ marginTop: '40px' }} className='d-flex justify-content-center align-items-center'>
                     <div style={{ marginRight: '30px' }}>
-                        <CommonButton text='learn more'></CommonButton>
+                        <a href='#about'>
+                            <CommonButton text='learn more'></CommonButton>
+                        </a>
                     </div>
-                    <CommonButton text='Watch the video'></CommonButton>
+                    <a href="#video">
+
+                        <CommonButton text='Watch the video'></CommonButton>
+                    </a>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

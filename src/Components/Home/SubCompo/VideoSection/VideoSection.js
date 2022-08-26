@@ -12,7 +12,7 @@ const VideoSection = () => {
         setPlay(false)
     }
     return (
-        <div className='container py-5 overflow-hidden'>
+        <div id='video' className='container py-5 overflow-hidden'>
             <div className="position-relative">
 
                 <video onPlay={handlePlaying} onPause={handlePause} ref={videoRef} poster='/images/thumnail.png' className='w-100' height="734px" controls>

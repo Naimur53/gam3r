@@ -16,7 +16,7 @@ const MainNavbar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">
                             <Nav.Link className='text-white px-3' href="/">HOME</Nav.Link>
-                            <Nav.Link className='text-white px-3' href="#aboutGam3r">ABOUT GAM3R</Nav.Link>
+                            <Nav.Link className='text-white px-3' href="#about">ABOUT GAM3R</Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link eventKey={2} href="#memes">
