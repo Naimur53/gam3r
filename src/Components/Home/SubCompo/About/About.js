@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div id='about' className='container pb-5' style={{ marginTop: '85px' }}>
+        <div id='about' className='container pb-5' style={{ paddingTop: '90px' }}>
             <div className="row">
                 <div className="col-md-6 col-sm-12">
                     <img src="/images/about.png" className='img-fluid' alt="about" />
@@ -28,7 +28,7 @@ const About = () => {
 
 
 
-            </div>
+            </div >
 
         </div >
     );
