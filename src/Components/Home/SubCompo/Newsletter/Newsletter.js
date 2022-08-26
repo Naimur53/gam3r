@@ -3,7 +3,7 @@ import CommonButton from '../../../Share/CommonButton/CommonButton';
 import './Newsletter.css'
 const Newsletter = () => {
     return (
-        <div>
+        <div id='news'>
             <div className='container d-block mt-5 mb-5 py-5'>
                 <h2 style={{ fontSize: '60px', fonWeight: 700 }} className='text-uppercase responsive-text text-center'>
                     JOIN OUR NEWSLETTER,

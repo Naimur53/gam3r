@@ -19,7 +19,7 @@ const MainNavbar = () => {
                             <Nav.Link className='text-white px-3' href="#about">ABOUT GAM3R</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link eventKey={2} href="#memes">
+                            <Nav.Link eventKey={2} href="#news">
                                 <CommonButton text='Apply Now'></CommonButton>
                             </Nav.Link>
                         </Nav>
